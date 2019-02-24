@@ -1,3 +1,5 @@
+Official repository at https://github.com/joke2k/faker
+
 *Faker* is a Python package that generates fake data for you. Whether
 you need to bootstrap your database, create good-looking XML documents,
 fill-in your persistence to stress test it, or anonymize data taken from
@@ -90,12 +92,12 @@ packaged in "providers".
 
     from faker import Faker
     from faker.providers import internet
-    
+
     fake = Faker()
     fake.add_provider(internet)
-    
+
     print(fake.ipv4_private())
-    
+
 
 Check the `extended docs`_ for a list of `bundled providers`_ and a list of
 `community providers`_.
